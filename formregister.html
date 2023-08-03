@@ -1,0 +1,191 @@
+
+<div class="zf-templateWrapper"><!---------template Header Starts Here---------->
+<ul class="zf-tempHeadBdr"><li class="zf-tempHeadContBdr"><h2 class="zf-frmTitle"><em>Pendaftaran Anggota Nikeubaiss</em></h2>
+<p class="zf-frmDesc">Formulir Pendaftaran Online Untuk Calon Anggota Baru Nikeuba PK ISS</p>
+<div class="zf-clearBoth"></div></li></ul><!---------template Header Ends Here---------->
+<!---------template Container Starts Here---------->
+<div class="zf-subContWrap zf-topAlign"><ul>
+<!---------Name Starts Here----------> 
+<li class="zf-tempFrmWrapper zf-name zf-namemedium"><label class="zf-labelName">Nama Lengkap
+<em class="zf-important">*</em>
+</label>
+<div 
+class="zf-tempContDiv zf-twoType"  
+>
+<div
+class="zf-nameWrapper"  
+>
+<span> <input type="text" maxlength="255" name="Name_First" fieldType=7 /><label>Depan</label> </span> 
+ </span> </span>
+<span> <input type="text" maxlength="255" name="Name_Last" fieldType=7 /><label>Belakang</label> </span> 
+ </span> </span>
+ </span>
+ </span>
+<div class="zf-clearBoth"></div></div><p id="Name_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+</div><div class="zf-clearBoth"></div></li><!---------Name Ends Here----------> 
+<!---------Email Starts Here---------->  
+<li class="zf-tempFrmWrapper zf-medium"><label class="zf-labelName">Email Anda 
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv"><span> <input fieldType=9  type="text" maxlength="255" name="Email" checktype="c5" value=""/></span> <p id="Email_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">emailanda@gmail.com / emailanda@yahoo.com</p>
+</div><div class="zf-clearBoth"></div></li><!---------Email Ends Here---------->  
+<!---------Single Line Starts Here---------->
+<li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">NO NIK: 
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv"><span> <input type="text" name="SingleLine1" checktype="c1" value="" maxlength="255" fieldType=1 /></span> <p id="SingleLine1_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">isi dengan nomor id card ISS INDONESIA.</p>
+</div><div class="zf-clearBoth"></div></li><!---------Single Line Ends Here---------->
+<!---------Phone Starts Here----------> 
+<li  class="zf-tempFrmWrapper zf-medium"><label class="zf-labelName">NO Ponsel
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv zf-phonefld"><div
+class="zf-phwrapper zf-phNumber"  
+>
+<span> <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="20" checktype="c7" value="" phoneFormat="1" isCountryCodeEnabled=false fieldType="11" id="international_PhoneNumber_countrycode" valType="number" phoneFormatType="1"/>
+<label>Number</label> </span>
+<div class="zf-clearBoth"></div></div><p id="PhoneNumber_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">isi dengan nomor telpon anda yang aktif.</p>
+</div><div class="zf-clearBoth"></div></li><!---------Phone Ends Here----------> 
+<!--address-->
+<!---------Address Starts Here---------->  
+<li class="zf-tempFrmWrapper zf-address zf-addrlarge " ><label class="zf-labelName">Alamat pengiriman:
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv zf-address"><div class="zf-addrCont">
+<span class="zf-addOne"> <input type="text" maxlength="255" name="Address_AddressLine1" checktype="c1"/><label>Nama Jalan</label> </span>
+<span class="zf-addOne"> <input type="text" maxlength="255" name="Address_AddressLine2" checktype="c1"/><label>Kampung/RT/RW/Kelurahan/Kecamatan</label> </span>
+<span class="zf-flLeft zf-addtwo"> <input type="text" maxlength="255" name="Address_City" checktype="c1"/><label>Kota</label> </span>
+<span class="zf-flLeft zf-addtwo"> <input type="text" maxlength="255" name="Address_Region" checktype="c1"/><label>Provinsi</label> </span>
+<span class="zf-flLeft zf-addtwo"> <input type="text" maxlength="255" name="Address_ZipCode" checktype="c1"/><label>Kode Pos</label> </span>
+<span class="zf-flLeft zf-addtwo"> <select class="zf-form-sBox" name="Address_Country" checktype="c1"><option>-Select-</option>
+			
+<option selected>Indonesia</option>
+			
+</select><label>Negara</label> </span>
+<div class="zf-clearBoth"></div><p id="Address_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">isi dengan alamat tempat tinggal anda sekarang/domisili.</p>
+</div></div><div class="zf-eclearBoth"></div></li><!---------Address Ends Here---------->
+<!---------Dropdown Starts Here---------->
+<li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">Ukuran Seragam:
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv"><select class="zf-form-sBox" name="Radio" checktype="c1"><option selected="true" value="-Select-">-Select-</option>
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+<option value="XXL">XXL</option>
+</select><p id="Radio_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">Pastikan ukuran baju/seragam sesuai.</p>
+</div><div class="zf-clearBoth"></div></li><!---------Dropdown Ends Here---------->
+<!---------Single Line Starts Here---------->
+<li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">Area Kerja: 
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv"><span> <input type="text" name="SingleLine" checktype="c1" value="" maxlength="255" fieldType=1 /></span> <p id="SingleLine_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">Nama perusahan / area tempat anda bekerja.
+Contoh: PT. CENTRAL SOLE AGENCY</p>
+</div><div class="zf-clearBoth"></div></li><!---------Single Line Ends Here---------->
+<!---------Description Starts Here---------->  
+<li class="zf-tempFrmWrapper zf-note"><label class="zf-descFld"><div>Rincian Biaya Pendaftaran :</div></label>
+<div class="zf-clearBoth"></div></li><!---------Description Ends Here---------->  
+<!---------Decision Starts Here----------> 
+<li class="zf-tempFrmWrapper zf-decesion "><div class="zf-tempContDiv">
+<input type="checkbox" checktype="c1" checked=true id="DecisionBox" name="DecisionBox"/>
+<label for="DecisionBox" class="zf-labelName">Biaya Seragam Rp. 150.000
+<em class="zf-important">*</em>
+</label>
+<p id="DecisionBox_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">sekali saat pendaftaran</p>
+</div><div class="zf-clearBoth"></div></li><!---------Decision Ends Here----------> 
+<!---------Decision Starts Here----------> 
+<li class="zf-tempFrmWrapper zf-decesion "><div class="zf-tempContDiv">
+<input type="checkbox" checktype="c1" checked=true id="DecisionBox1" name="DecisionBox1"/>
+<label for="DecisionBox1" class="zf-labelName">Biaya Kartu Anggota Rp. 25.000
+<em class="zf-important">*</em>
+</label>
+<p id="DecisionBox1_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">sekali saat pendaftaran</p>
+</div><div class="zf-clearBoth"></div></li><!---------Decision Ends Here----------> 
+<!---------Decision Starts Here----------> 
+<li class="zf-tempFrmWrapper zf-decesion "><div class="zf-tempContDiv">
+<input type="checkbox" checktype="c1" checked=true id="DecisionBox2" name="DecisionBox2"/>
+<label for="DecisionBox2" class="zf-labelName">Iuran Bulanan Rp. 15.000
+<em class="zf-important">*</em>
+</label>
+<p id="DecisionBox2_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">rutin setiap bulan</p>
+</div><div class="zf-clearBoth"></div></li><!---------Decision Ends Here----------> 
+<!--Terms and conditions-->
+<li class="zf-tempFrmWrapper">
+<label class="zf-labelName">Saya bersedia memberikan kuasa kepada Management ISS memotong upah by Payrol setiap bulannya untuk iuran Nikeuba sesuai ketentuan Pasal 5 Kepmen No 187 tahun 2004.
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv" ><div class="zf-termsContainer">
+<div class="zf-termsMsg zf-descFld" >Semua biaya dilakukan pemotongan langsung by payrol.   Seragam dan KTA akan di kirimkan via expedisi dari J&amp;T dengan ongkos kirim di tanggung alamat tujuan 30 hari sejak potongan pendaftaran.  </div>
+<div class="zf-termsAccept"><input class="zf-checkBoxType zf-flLeft" name="TermsConditions" type="checkbox"><label class="zf-descFld">Ya, Saya bersedia.
+</label></div></div></div><p class="zf-errorMessage" elname="error" id="TermsConditions_error" style="display:none;">Invalid value</p>
+<div class="clearBoth"></div></li>
+<!---------Dropdown Starts Here---------->
+<li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName">Kordinator Wilayah
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv"><select class="zf-form-sBox" name="Dropdown" checktype="c1"><option selected="true" value="-Select-">-Select-</option>
+<option value="Becikapur&#x28;Bekasi,Cikarang&#x20;&amp;&#x20;Purwakarta&#x29;">Becikapur&#x28;Bekasi,Cikarang &amp; Purwakarta&#x29;</option>
+<option value="Jakarta">Jakarta</option>
+<option value="Tangerang">Tangerang</option>
+<option value="Bandung">Bandung</option>
+<option value="Indramayu">Indramayu</option>
+<option value="Pekan&#x20;Baru&#x20;&#x2f;&#x20;Batam">Pekan Baru &#x2f; Batam</option>
+<option value="Palembang">Palembang</option>
+<option value="Jawa&#x20;Timur">Jawa Timur</option>
+<option value="Medan">Medan</option>
+</select><p id="Dropdown_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+<p class="zf-instruction">Pilih salah satu kordinator wilayah dibawah ini sesuai dengan lokasi anda.</p>
+</div><div class="zf-clearBoth"></div></li><!---------Dropdown Ends Here---------->
+<!--Image Upload-->
+<!---------Image Upload Starts Here---------->  
+<li class="zf-tempFrmWrapper"><label class="zf-labelName">Foto Selfie :
+<em class="zf-important">*</em>
+</label>
+<div class="zf-tempContDiv">
+<input type="file" accept="image/*" name="ImageUpload" checktype="c1"/>
+<p id="ImageUpload_error" class="zf-errorMessage" style="display:none;">Choose any file for this field.</p>
+<p class="zf-instruction"> Silahkan gunakan kamera depan untuk berselfie. Pastikan wajah anda terlihat jelas.</p>
+</div><div class="zf-clearBoth"></div></li><!---------Image Upload Ends Here---------->  
+</ul></div><!---------template Container Starts Here---------->
+<ul><li class="zf-fmFooter"><button class="zf-submitColor" >Submit</button></li></ul></div><!-- 'zf-templateWrapper' ends --></form></div>
+
+<div id="zf_div_brKJEST2twjlguefbNd7ro56_36o9Mc4M7lW0t5KONg"></div><script type="text/javascript">(function() {
+try{
+var f = document.createElement("iframe");
+f.src = 'https://forms.zohopublic.com/fsbnikeubaissgroup/form/ResignationForm/formperma/brKJEST2twjlguefbNd7ro56_36o9Mc4M7lW0t5KONg?zf_rszfm=1&zf_enablecamera=true';
+f.style.border="none";
+f.style.height="2928px";
+f.style.width="90%";
+f.style.transition="all 0.5s ease";
+f.setAttribute("allow","camera;");
+var d = document.getElementById("zf_div_brKJEST2twjlguefbNd7ro56_36o9Mc4M7lW0t5KONg");
+d.appendChild(f);
+window.addEventListener('message', function (){
+var evntData = event.data;
+if( evntData && evntData.constructor == String ){
+var zf_ifrm_data = evntData.split("|");
+if ( zf_ifrm_data.length == 2 ) {
+var zf_perma = zf_ifrm_data[0];
+var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+var iframe = document.getElementById("zf_div_brKJEST2twjlguefbNd7ro56_36o9Mc4M7lW0t5KONg").getElementsByTagName("iframe")[0];
+if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+var prevIframeHeight = iframe.style.height;
+if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+iframe.style.height = zf_ifrm_ht_nw;
+}
+}
+}
+}
+}, false);
+}catch(e){}
+})();</script>
